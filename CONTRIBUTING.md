@@ -52,7 +52,7 @@ Community leaders have the right and responsibility to remove, edit, or reject c
 
 * Git branches: one branch per ticket/feature. Never on the main branch.
 
-*A Pool Request to open to merge into the main branch.  
+* A Pool Request to open to merge into the main branch.  
 
-*The branch must be named: ID-TICKET-short-description
+* The branch must be named: ID-TICKET-short-description
 
