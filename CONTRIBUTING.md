@@ -5,7 +5,7 @@
 
 #### Table Of Contents
 
-[Code of Conduct](#code-of-conduct)
+[Code of conduct](#code-of-conduct)
 
 [Standards](#standards)
 
