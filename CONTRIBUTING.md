@@ -7,7 +7,7 @@
 
 [Code of Conduct](#code-of-conduct)
 
-[standards](#standards)
+[Standards](#standards)
 
 [Conventions](#code-of-conduct)
 
@@ -20,11 +20,12 @@
 
 
 ## Code of Conduct
+
 We take our open source community seriously and hold ourselves and other contributors to high standards of communication. By participating and contributing to this project, you agree to abide by our communication standards. 
 Here are the details : [Code of Conduct](https://github.com/JasonBenett/phpfolio/blob/main/CODE-OF-CONDUCT.md).
 
 
-## STANDARDS
+## Standards
 
 Examples of behavior that contributes to a positive environment for our community include:
 
@@ -47,12 +48,3 @@ Community leaders have the right and responsibility to remove, edit, or reject c
 
 
 ## Conventions
-
-* Git Commits: ID-TICKET #semantic: description 
-
-* Git branches: one branch per ticket/feature. Never on the main branch.
-
-* A Pool Request to open to merge into the main branch.  
-
-* The branch must be named: ID-TICKET-short-description
-
