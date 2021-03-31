@@ -1,33 +1,27 @@
 {
     "name": "jasonbenett/phpfolio",
     "type": "library",
-    "keywords": ["phpfolio", "What The Fabrik Community", "Jason Benetti"],
-    "description": "Composer helps you declare, manage and install dependencies of PHP projects. It ensures you have the right stack everywhere.",
+    "keywords": ["phpfolio", "What The Fabrik Community"],
+    "description": "Phpfolio is a library facilitating the creation of a portfolio.",
     "license": "MIT",
     "authors": [{
-            "name": "Jason Benetti",
-            "email": ""
-
+            "name": "Jason Benedetti",
+            "email": "jason.benedetti@live.fr"
         },
         {
             "name": "What The Fabrik Community",
             "homepage": "https://whatthefabrik.fr"
-
-
         }
     ],
-    "config": {
-        "sort-packages": true
-    },
     "require": {
         "php": " ^7.4 || ^8.0"
     },
-    "require-dev": {
-        "php": "^7.4 || ^8.0"
-    },
     "autoload": {
         "psr-4": {
-
+            "JasonBenett\\Phpfolio\\": "src/"
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
