@@ -1,7 +1,7 @@
 {
-    "name": "jasonbenett/phpfolio",
+    "name": "what-the-fabrik/phpfolio",
     "type": "library",
-    "keywords": ["phpfolio", "What The Fabrik Community"],
+    "keywords": ["PHPfolio", "What The Fabrik", "WTF", "php", "portfolio"],
     "description": "Phpfolio is a library facilitating the creation of a portfolio.",
     "license": "MIT",
     "authors": [{
@@ -26,6 +26,7 @@
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12.83",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.6"
     }
 }

@@ -1,10 +1,14 @@
 services:
-  php-fpm-7.4:
-    build: php-fpm-7
+  php-fpm-74:
+    container_name: phpfolio-php74
+    build: php-fpm-74
+    working_dir: /var/www/${COMPOSE_PROJECT_NAME}
     volumes:
      - ../:/var/www/${COMPOSE_PROJECT_NAME}
 
-  php-fpm-8:
-    build: php-fpm-8
+  php-fpm-80:
+    container_name: phpfolio-php80
+    build: php-fpm-80
+    working_dir: /var/www/${COMPOSE_PROJECT_NAME}
     volumes:
      - ../:/var/www/${COMPOSE_PROJECT_NAME}
