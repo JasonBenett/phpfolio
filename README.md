@@ -1,31 +1,27 @@
-# phpfolio
+# PHPFolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Docker Compose
-==============
+## Introduction
+This project provides a useful toolbox to build a portfolio website faster. It's a project created for the
+[What The Fabrik](https://opensource.org/licenses/MIT) Community as a training.
 
-Execute the install composer
-----------------------------
-To launch the container
-```console
-docker up -d
+## Contribute
+### Docker & Docker Compose
+This project is provided with a docker compose config to execute the tests, use composer and share the same dev
+environment between all developers. Feel free to use/improve it!
+The following examples are using `Make`, run `make help` to get more information.
+
+#### Running the tests:
+```shell
+make docker-start
+make test-php74
+make test-php80
+make docker-stop
 ```
 
-To go to the php-fpm-8 container
-```console
-docker-compose exec php-fpm-8 sh
-```
-To check
-```console
-composer --version
-```
+or
 
-To go to the php-fpm-7 container
-```console
-docker-compose exec php-fpm-7.4 sh
-```
-To check
-```console
-composer --version
+```shell
+make test
 ```
